@@ -1,0 +1,103 @@
+form {
+  text-align: center;
+}
+
+div,
+form,
+button {
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  position: relative;
+  border-radius: 50px;
+  border: 0;
+  padding: 10px;
+}
+
+.btns {
+  position: absolute;
+  /* text-align: end; */
+  top: 10px;
+  right: 10px;
+}
+
+.head-page {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+img {
+  display: block;
+
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+}
+
+input[type="text"] {
+  width: 560px;
+  height: 24px;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  margin-bottom: 20px;
+  border: 0;
+  border-radius: 50px;
+  box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+}
+
+input[type="submit"] {
+  width: auto;
+  height: auto;
+  padding: 10px;
+  margin-bottom: 30px;
+  border: 0;
+  border-radius: 50px;
+  box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+}
+
+/* input[type="submit"]:hover {
+  background-color: aqua;
+} */
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-block {
+  text-align: center;
+}
+
+.btn-bottom {
+  /* position: absolute; */
+  /* display: inline-block; */
+  border-radius: 50px;
+  border: 0;
+}
+
+h1 {
+  color: blue;
+}
+
+h2 {
+  color: brown;
+}
+.all-forms {
+  text-align: start;
+}
+
+label {
+  display: inline-block;
+  margin-left: 0;
+  margin-right: auto;
+  color: brown;
+}
+
+.label > input {
+  margin-left: 40px;
+}
